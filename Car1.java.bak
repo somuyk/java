@@ -18,7 +18,7 @@ class Car1
 
 
 	
-	System.out.println("car Brand="+brand);
+	System.out.println("car Brand name="+brand);
 	 System.out.println("car Speed ="+carspeed);
 		
 		
