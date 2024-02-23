@@ -1,0 +1,54 @@
+class Car1 
+{
+	public static String brand="BENZ";
+	public static int distance=300;
+	public int speed;
+	public void carspeed(int a)
+	{
+		if (a>=60 && a<=120)
+		{
+		
+		carspeed=a;
+		System.out.println("true");
+		}
+		else
+		{
+			System.out.println("false");
+		}
+
+
+	
+	System.out.println("car Brand="+brand);
+	 System.out.println("car Speed ="+carspeed);
+		
+		
+	 System.out.println(distance/speed);
+		
+	}
+	class MainClass
+	{
+	
+
+	public static void main(String[] args) 
+	{
+		Car1 c1=new Car1();
+		Car1 c2=new Car1();
+		Car1 cr3=new Car1();
+		Car1 c4=new Car1();
+	      c1.carspeed(70);
+		c2.carspeed(100);
+		c3.carspeed(120);
+		c4.carspeed(178);
+	  c1.carspeed();
+	  c2.carspeed();
+	  c3.carspeed();
+	  c4.carspeed();
+	  c1.cardistance();
+	  c2.cardistance();
+	}
+	
+
+
+	
+
+
